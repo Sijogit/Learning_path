@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+    font-size: 40px;
+}
+.org{
+    color: blue;
+}
+.info{
+    color: brown;
+}
+.uni{
+    color: green;
+}
+.use{
+    color: orange;
+}

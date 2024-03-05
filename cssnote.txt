@@ -1,0 +1,33 @@
+css
+different way of using css
+-------------------------
+1.inline css
+ style="color: blue; font-size: 40px;"
+2.internal css
+style>
+    p{
+        color: red;
+        font-size: 50px;
+    }
+  </style>
+3. External css
+   tagname{
+        color: red:
+        font-size: 50px;
+   }
+   html linking
+   <link rel="stylesheet" href="style.css"
+   Priorty
+   inline>internal>external
+   -----------------------------------------------
+
+   css selectors
+-----------------
+   1. tagname selectors 
+   2. id selectors(using for unique styling) #
+   3. class selectors(using for group styling ) .
+   4. universal selectors(using for all document styling) *
+   ------------------------------------------------------------
+   CSS box model
+   -------------
+   1. 

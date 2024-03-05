@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <!-- Firstname -->
+        <label for="fn">FirstName : </label>
+        <input id="fn"type="text" placeholder="FirstName"> <br><br>
+ 
+        <!-- Middlename -->
+        <label for="mn">MiddleName : </label>
+        <input id="mn"type="text" placeholder="MiddleName"> <br><br>
+
+        <!-- Lastname -->
+        <label for="ln">LastName : </label>
+        <input id="ln"type="text" placeholder="LastName"> <br><br>
+
+        <!-- Email -->
+        <label for="email">Email :</label>
+        <input id="email"  type="email" placeholder="Email"><br><br>
+
+        <!-- Date -->
+        <label for="dob">DOB</label>
+        <input id="dob"  type="date"><br><br>
+
+        <!-- file -->
+        <label for="myfile">choose your file</label>
+        <input id="myfile"  type="file">
+
+        <!-- address -->
+        <label for="adrs">Address</label>
+        <textarea name="" id="adrs" cols="30" rows="10"></textarea><br><br>
+
+        <!-- radio button -->
+        <label>Gender</label><br>
+
+        <!-- male -->
+        <input name="gender"  id="male"  type="radio">
+        <label for="male">Male</label><br>
+
+        <!-- female -->
+        <input name="gender" id="female"  type="radio">
+        <label for="female">Female</label><br>
+
+        <!-- male -->
+        <input name="gender" id="others"  type="radio">
+        <label for="others">Others</label><br>
+
+        <!-- selection box (value is storing that data)-->
+        <label>status</label>
+        <select>
+            <option value="passed">passed</option>
+            <option value="failed">failed</option>
+            <option value="pending">pending</option>
+        </select><br><br>
+
+        <!-- checkbox -->
+        <input id="cb"  type="checkbox">
+        <label for="cb">i accept the conditions</label><br>
+
+        <input id="cb"  type="checkbox">
+        <label for="cb">i denied</label><br>
+
+        <!-- number -->
+        <label for="">number of attempts</label>
+        <input type="number" min="1" max="5">
+
+
+
+    </form>
+     
+</body>
+</html>
